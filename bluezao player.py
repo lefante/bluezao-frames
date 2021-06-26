@@ -12,7 +12,7 @@ ASCII_CHARS = ASCII_CHARS[::-1]
 
 WIDTH = 60
 
-TIMEOUT = 1/((int(CLIP_FRAMES/4)+1)/CLIP_LENGTH)*7
+TIMEOUT = 1/((int(CLIP_FRAMES/4)+1)/CLIP_LENGTH)*18
 
 def resize(image, new_width=WIDTH):
     (old_width, old_height) = image.size
