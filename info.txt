@@ -1,0 +1,19 @@
+faça o download do arquivo
+abra usando visual code ou qualquer outro programa
+download via terminal:
+1.pip install python-time
+2.pip install discord.py
+3.pip install pillow
+4.pip install opencv-python
+mude para "bluezao player.py"
+client.run (' ') # <--- coloca o token aqui
+obs:
+não se esqueça de ter o python instalado
+inicie "python video to frames.py" espere 1-2 mins (ele vai carregar todos os frames em imagem)
+agora vc precisa especificar o caminho dos frames (exemplo)
+path = "C:/ Users/Admin/Desktop/bluezao-frames/frame" + str (i * 4) + ". jpg" # <--- caminho que contem todos os frames do video
+
+o prefixo "frame" no final é necessario
+6) rode o bot pelo comando python: "python bluezao player.py"
+7) va no discord e digite "!bluezao" em qualquer canal
+depois disso o bot vai começar a desenhar os frames (1 frame em 2 segundos quer mais rápido? mude TIMEOUT = 1/((int(CLIP_FRAMES/4)+1)/CLIP_LENGTH)*7)
