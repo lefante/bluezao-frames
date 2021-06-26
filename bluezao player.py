@@ -55,14 +55,14 @@ def runner(path):
 frames = []
 
 for i in range(0, int(CLIP_FRAMES/4)+1):
-    path = "C:/Users/User/gemes/bad-apple-bot-main/frame"+str(i*4)+".jpg" #<--- path to folder containing every frame of the video
+    path = "C:/Users/Admin/Desktop/bluezao-frames/frame"+str(i*4)+".jpg" #<--- caminho contendo todos os frames do video
     frames.append(runner(path))
 
 client = discord.Client()
 
 @client.event
 async def on_ready():
-    print('We have logged in as {0.user}'.format(client))
+    print('estamos logados com {0.user}'.format(client))
 
 @client.event
 async def on_message(message):
@@ -94,4 +94,4 @@ async def on_message(message):
 
                     disp = True
 
-client.run('ODU1NDk4ODE2NzYxMzY0NDgw.YMzXXA.atJUmhz8z6xiWrJkg-CSmTCf_SI')#<--- Put bot token here
+client.run('')#<--- Put bot token here
