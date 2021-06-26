@@ -18,4 +18,4 @@ def FrameCapture(path):
   
 if __name__ == '__main__': 
 
-    FrameCapture("bad_apple.mp4")
+    FrameCapture("bluezao.mp4")
